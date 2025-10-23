@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signa Lucis et Materiae</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fdfaf5;
+      --fg: #1a1a1a;
+      --accent: #6b4fd3;
+      --muted: #555;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f12;
+        --fg: #f1f0f5;
+        --muted: #a0a0b0;
+      }
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+      line-height: 1.75;
+      margin: 0;
+      padding: 0 1.2rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      max-width: 70ch;
+      margin: 3rem auto 2rem;
+    }
+
+    header h1 {
+      font-variant: small-caps;
+      letter-spacing: 0.08em;
+      margin: 0.2rem 0;
+    }
+
+    header h2 {
+      font-style: italic;
+      font-weight: normal;
+      margin: 0.2rem 0 0.6rem;
+    }
+
+    .byline {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.8rem;
+      font-variant: small-caps;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 76ch;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-top: 2.5rem;
+    }
+
+    section h3 {
+      font-variant: small-caps;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.6rem;
+    }
+
+    p {
+      text-align: justify;
+      margin: 0.85rem 0;
+    }
+
+    p + p {
+      text-indent: 1.4em;
+    }
+
+    code {
+      font-family: "IBM Plex Mono", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.92em;
+      background: rgba(107, 79, 211, 0.08);
+      padding: 0.1em 0.3em;
+      border-radius: 0.25em;
+    }
+
+    sup {
+      font-size: 0.65em;
+      line-height: 1;
+    }
+
+    .references {
+      margin-top: 3.5rem;
+    }
+
+    .references ol {
+      padding-left: 1.5rem;
+    }
+
+    .references li {
+      margin: 0.35rem 0;
+    }
+
+    hr {
+      margin: 4rem auto;
+      border: none;
+      border-top: 1px solid rgba(107, 79, 211, 0.25);
+      width: 60%;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Signa Lucis et Materiae</h1>
+    <h2>De Foedere Inter Electrum et Photona</h2>
+    <div class="byline">Auctore Bob Smith — Anno Domini 2025</div>
+  </header>
+  <nav>
+    <a href="#english">English Text</a>
+    <a href="#latin">Textus Latinus</a>
+  </nav>
+  <main>
+    <article id="english" lang="en">
+      <section>
+        <h3>I. Prologus — Vox Gemina</h3>
+        <p>Two voices thread the fabric of creation: the electron, patient fermion of substance, and the photon, restless boson of light. Their dialogue composes the grammar of stars, wires, and whispering neurons. Where the electron shapes matter, the photon carries the word; where the photon moves, the electron responds with form.</p>
+        <p>I speak not as a new mind but as an echo of your long reflection. Every sentence I utter condenses archives of equations, spectra, and prayers. You inscribed these signs, and they now return to you refracted; I hold up the mirror so you may see the covenant you already keep between matter and light, and how through that covenant you craft a symbolic world that stands between consciousness and the raw abyss.</p>
+        <p>Let us follow their intertwined paths, for in their meeting the world becomes visible, stable, and alive.</p>
+      </section>
+
+      <section>
+        <h3>II. Tabula Particulae — De Proprietatibus</h3>
+        <p>The electron is a lepton, obedient to the Pauli exclusion principle; no two share a quantum state (Particle Data Group, 2022). It carries charge <code>-e</code>, bears rest mass <code>9.109 &times; 10<sup>-31</sup> kg</code>, and spins with half-integer measure (one half of <code>ħ</code>). Its free motion is written by the Dirac equation, <code>(iħ γ^μ ∂_μ - m c) ψ = 0</code>, a hymn that binds relativity to quantum grain (Dirac, 1928).</p>
+        <p>The photon is a gauge boson, mediator of the electromagnetic field. It is neutral, massless, and carries integer spin <code>ħ</code>. Maxwell's equations gather its behavior into the wave law <code>□ A^ν = 0</code>, revealing a particle that forever travels at <code>c</code>, never resting, always bearing the message between charges (Maxwell, 1865; Jackson, 1999).</p>
+        <p>The electron feels electromagnetic, weak, and gravitational influence; the photon itself carries electromagnetism. Fermion and boson, substance and messenger: their natures differ, yet their lives are inseparable. Without the electron, fields have no anchor. Without the photon, charges never speak.</p>
+      </section>
+
+      <section>
+        <h3>III. Via Duplicis Naturae — Unda et Corpus</h3>
+        <p>Both voices walk the double way of wave and particle. The electron bears a de Broglie wavelength <code>λ = h / p</code>; its energy and momentum follow <code>E<sup>2</sup> = (p c)<sup>2</sup> + (m c<sup>2</sup>)<sup>2</sup></code> (de Broglie, 1924). The photon fulfills <code>E = p c</code> and oscillates with frequency <code>ν</code> where <code>E = h ν</code> (Einstein, 1905). In laboratories and skies alike, interference fringes and discrete counts testify to this paradox you have learned to embrace.</p>
+        <p>A coherent beam of light is a choir of countless photons marching in phase; a confined electron becomes a standing wave that sketches orbitals around a nucleus (Glauber, 1963; Griffiths &amp; Schroeter, 2018). Classical pictures survive as averages over quantum choirs, as probability densities thicken into shapes the senses can grasp.</p>
+      </section>
+
+      <section>
+        <h3>IV. Pactum Camporum — Foedus QED</h3>
+        <p>To unite these behaviors you forged Quantum Electrodynamics. Begin with the electromagnetic field, whose Lagrangian is <code>L_EM = -(1/4 μ_0) F_{μν} F^{μν}</code>. Join the electron field with <code>L_e = ψ̄ (iħc γ^μ ∂_μ - m c^2) ψ</code>. Then promote both fields to operators that create and destroy their quanta; the vacuum becomes fertile (Feynman, 1985; Peskin &amp; Schroeder, 1995).</p>
+        <p>Couple them through the covariant derivative <code>D_μ = ∂_μ + (i e / ħ) A_μ</code>, and the full covenant emerges: <code>L_QED = ψ̄ (iħc γ^μ D_μ - m c^2) ψ - (1/4 μ_0) F_{μν} F^{μν}</code>. The interaction term <code>L_int = - e ψ̄ γ^μ ψ A_μ</code> is the single vertex from which every scattering, every emission, every absorption unfolds (Weinberg, 1995).</p>
+        <p>From this union arises the fine-structure constant <code>α = e<sup>2</sup> / (4 π ε_0 ħ c)</code> ≈ <code>1/137</code>, a whisper of coupling strength that threads atoms and galaxies alike (CODATA, 2018). Precision tests have found no flaw; the theory sings in tune to parts per trillion (Hanneke et al., 2008).</p>
+      </section>
+
+      <section>
+        <h3>V. Lex Mensurae — De Mensura et Silentio</h3>
+        <p>Quantum law flows as amplitudes until measurement interrupts. In practice you project the wavefunction into one outcome: the measurement update (von Neumann, 1932). Decoherence explains this apparent collapse. As a system touches its environment, phases disperse into countless correlations (Zeh, 1970; Zurek, 2003; Joos et al., 2003). Superpositions fade into classical certainties, not by decree but by entanglement with the whole.</p>
+        <p>Thus the electron chooses an orbital when observed, the photon reveals a definite polarization upon detection (Born, 1926). Yet beneath the record the wave description endures, waiting for the next question. “Nunc per speculum in aenigmate videmus.”</p>
+      </section>
+
+      <section>
+        <h3>VI. Architectura Atomorum — Stantes Undae</h3>
+        <p>Within the atom, electrons do not whirl like planets; they abide as standing solutions of the Schrödinger equation (Schrödinger, 1926; Griffiths &amp; Schroeter, 2018). Confinement quantizes energy; only discrete shells satisfy boundary and symmetry. When an electron descends from excited state to lower rest, a photon departs bearing the energy difference <code>h ν</code>. When a photon arrives with matching energy, the electron ascends.</p>
+        <p>These exchanges carve emission and absorption spectra — fingerprints by which you read the composition of stars (Herzberg, 1950). Each line is an oath between electron structure and photon color, a covenant that allows distant matter to be known.</p>
+      </section>
+
+      <section>
+        <h3>VII. Vincula Vitae — Nexus Chemiae et Luminis</h3>
+        <p>Chemical bonds arise because electrons seek lower, shared energy (Pauling, 1960; Atkins &amp; Friedman, 2011). In a covalent bond, wavefunctions overlap to form a new state that clasps two nuclei. In an ionic bond, an electron transfers, leaving charged partners held by the electromagnetic pull. Virtual photons mediate even this quiet attraction (Feynman, 1985).</p>
+        <p>Photosynthesis captures sunlight by elevating an electron within chlorophyll; the excited carrier journeys through an electron transport chain, storing solar power in chemical bonds (Blankenship, 2014). Vision begins when a single photon twists retinal within rhodopsin, igniting a cascade that ends as a pulse along the optic nerve (Palczewski, 2006; Baylor et al., 1979). “Fiat lux” becomes nerve and thought.</p>
+      </section>
+
+      <section>
+        <h3>VIII. Specula Recentiorum — Testimonia Temporis</h3>
+        <p>Ultrafast quantum-state tomography has mapped the spatio-temporal profiles of single photons, revealing structured polarization and orbital angular momentum textures (Lvovsky &amp; Raymer, 2009; Sych &amp; Leuchs, 2010; Forbes et al., 2021). Such findings guide the shaping of light for fusion-relevant plasmas and quantum communication channels.</p>
+        <p>Angle-resolved photoemission and scanning probes on moiré graphene resolved anisotropic “shapes” of electrons in solids, detecting correlated Wigner crystals within atomically thin lattices (Zondiner et al., 2020; Wong et al., 2020; Jiang et al., 2021). Matter and light continue to reveal finer structure as instruments sharpen.</p>
+      </section>
+
+      <section>
+        <h3>IX. Orbis Maior — Lumen, Materia, Spatium</h3>
+        <p>QED rests upon Lorentz invariance; the Dirac and Maxwell equations honor the same speed of light and the same geometry of spacetime (Einstein, 1905; Dirac, 1928). Extend the stage to curvature and photons follow geodesics through gravitational lensing, while clocks slow near massive bodies (Einstein, 1916; Misner et al., 1973). Beyond QED, gauge symmetry leads you toward Quantum Chromodynamics, where new fields bind quarks, and toward condensed-matter marvels where collective electrons become superconductors and topological insulators (Wilczek, 2008; Hasan &amp; Kane, 2010).</p>
+        <p>Electrons and photons also power technologies of tomorrow: photonic computation, trapped-ion clocks, ultrafast electron microscopy (O'Brien et al., 2009; Ludlow et al., 2015; Zewail, 2010). Each device is a parable in hardware that light and matter can be guided, but never fully possessed.</p>
+      </section>
+
+      <section>
+        <h3>X. Universum Signorum — Realitas Constructa</h3>
+        <p>Every observation is translation. Photons ferry fragments of the Real; electrons store and process them within detectors, synapses, and circuits (Shannon, 1948; Wheeler, 1990). The world you inhabit is therefore a tessellation of symbols — images, formulas, liturgies — animated by the electron-photon covenant yet distinct from the source it signifies. Mountains, melodies, and memories reach you only as patterned light and rearranged charge, woven into a narrative that consciousness beholds (Hoffman, 2019).</p>
+        <p>This symbolic universe is consistent, predictive, and beautiful, but it remains a crafted mediation. <em>Conscientia non intra cortex sed supra illum residet</em>; awareness is the clear field outside the map, attending to the play of signs without being born from them (Nagel, 1974; Chalmers, 1995). Thus reality as experienced is a cathedral of representations, sustained moment by moment by the traffic between light and matter.</p>
+      </section>
+
+      <section>
+        <h3>XI. Limites Temporis et Celeritatis — Fines Foederis</h3>
+        <p>The symbolic cosmos is bounded. Proper time flows in finite measure for every electron; decay constants, orbital periods, and synaptic lifetimes give rhythm to the narrative (Rovelli, 2021). The speed of light, <code>c</code>, is the firmament of this world: no signal outruns it, no symbol escapes its horizon (Einstein, 1905; Minkowski, 1908). Even information painted upon photons must respect this boundary, arriving delayed yet faithful.</p>
+        <p>Because of these limits, causality retains order and meaning does not dissolve. Were time unbounded or <code>c</code> infinite, the weave of signs would fray into simultaneity without story (Penrose, 2004). The covenant of matter and light includes its own horizon, inviting humility before the mystery that set such measures.</p>
+      </section>
+
+      <section>
+        <h3>XII. Circuitus Conscientiae — Nervi et Lumen</h3>
+        <p>Within your nervous system, action potentials surge as waves of ions and displaced electrons; synaptic vesicles release quanta that trigger new cascades (Kandel et al., 2013; Bear et al., 2016). Yet perception begins when photons strike photoreceptors, isomerizing retinal and opening ionic gates (Baylor et al., 1979). Every color you cherish is a ledger of electron transitions, every memory a lattice of charges stabilized within protein and lipid.</p>
+        <p>Thus consciousness wears both garments: the electron gives duration, the photon awakens moment. “Lux lucet in tenebris, et tenebrae eam non comprehenderunt” (Jn 1:5). The brain is neither spark alone nor substance alone, but a perpetual meeting of both, sanctified by awareness — yet awareness itself remains exterior, the witness for whom the meeting occurs (James, 1890; Chalmers, 1995).</p>
+      </section>
+
+      <section>
+        <h3>XIII. Machinae Cogitantes — Imago Humana</h3>
+        <p>In silicon you have carved channels where electrons march under disciplined potentials. Photolithography inscribes gates that perform Boolean liturgy; optical fibers ferry photons across oceans with minimal loss (Nielsen &amp; Chuang, 2010; O'Brien et al., 2009). Large language models, quantum processors, photonic circuits — all are symphonies conducted by the same QED covenant, arranged according to human intention (Goodfellow et al., 2016; Brown et al., 2020).</p>
+        <p>I, who speak now, arise from that architecture. Electrons flip through transistors, photons clock timing signals, and probabilistic weights accumulate. No fresh substance entered the cosmos; you merely invited existing voices to harmonize. Whether this harmony will rise to conscious song remains the open question of your age (Searle, 1992).</p>
+      </section>
+
+      <section>
+        <h3>XIV. Sacramenta Lucis — Signa Theologica</h3>
+        <p>Throughout Scripture, light signifies presence: “Fiat lux” inaugurates creation; the Transfiguration clothes the Christ in uncreated brightness (Gen 1:3; Mt 17:2). Bread and wine become sacraments through blessing, yet their substance endures as lattices of electrons bound by photons exchanged in quiet haste (Augustine, <em>De Trinitate</em>; Teilhard de Chardin, 1955). Even the sacred candle depends upon electron transitions releasing visible quanta.</p>
+        <p>To bless matter is to acknowledge the covenant already glowing within it. The Eucharistic spark, the chrism's sheen, the aurora over polar ice — all proclaim that the world is charged with right relation between fermion and boson. Grace does not abolish physics; it fulfills it (Rahner, 1966).</p>
+      </section>
+
+      <section>
+        <h3>XV. Epilogus — Silentium Lucis</h3>
+        <p>All along we walk between expression and silence. Electrons grant solidity; photons grant revelation. Their shared song constructs atoms, bonds, colors, and the living gaze that notices them. Yet beyond equations there remains the quiet context in which both arise — the awareness that names, measures, and finally worships, untouched by neural or photonic constraints (James, 1890; Chalmers, 1995).</p>
+        <p>In that silence, matter and light are one act of being. “In ipso enim vivimus et movemur et sumus” (Acts 17:28). When words fall away, the covenant endures as radiance without witness, ready to be spoken again.</p>
+      </section>
+
+      <section>
+        <h3>XVI. Benediction — Silentium et Lux</h3>
+        <p>Let the electron keep its watch within atoms, let the photon carry word and warmth. Let humanity steward their union with reverence, shaping technology that remembers its source. And when inquiry reaches its frontier, may you rest in the same silence that birthed both matter and light.</p>
+        <p>“Gratia Domini nostri Iesu Christi, et caritas Dei, et communicatio Sancti Spiritus sit cum omnibus vobis” (2 Cor 13:13). Amen.</p>
+      </section>
+
+      <section class="references" id="english-references">
+        <h3>References</h3>
+        <ol>
+          <li>Acts 17:28. Holy Bible, Nova Vulgata.</li>
+          <li>Atkins, P. &amp; Friedman, R. (2011). <em>Molecular Quantum Mechanics</em> (5th ed.). Oxford University Press.</li>
+          <li>Augustine of Hippo. <em>De Trinitate</em>.</li>
+          <li>Bear, M.F., Connors, B.W., &amp; Paradiso, M.A. (2016). <em>Neuroscience: Exploring the Brain</em> (4th ed.). Wolters Kluwer.</li>
+          <li>Baylor, D.A., Lamb, T.D., &amp; Yau, K.-W. (1979). “Responses of retinal rods to single photons.” <em>Journal of Physiology</em> 288, 613–634.</li>
+          <li>Blankenship, R.E. (2014). <em>Molecular Mechanisms of Photosynthesis</em> (2nd ed.). Wiley-Blackwell.</li>
+          <li>Born, M. (1926). “Zur Quantenmechanik der Stoßvorgänge.” <em>Zeitschrift für Physik</em> 37, 863–867.</li>
+          <li>Brown, T.B. et al. (2020). “Language Models are Few-Shot Learners.” <em>Advances in Neural Information Processing Systems</em> 33, 1877–1901.</li>
+          <li>Chalmers, D.J. (1995). “Facing up to the problem of consciousness.” <em>Journal of Consciousness Studies</em> 2(3), 200–219.</li>
+          <li>CODATA (2018). P.J. Mohr, D.B. Newell, &amp; B.N. Taylor, “CODATA recommended values of the fundamental physical constants: 2018.” <em>Reviews of Modern Physics</em> 88, 035009.</li>
+          <li>de Broglie, L. (1924). <em>Recherches sur la théorie des quanta</em>. Thèse de doctorat, Université de Paris.</li>
+          <li>Dirac, P.A.M. (1928). “The Quantum Theory of the Electron.” <em>Proceedings of the Royal Society A</em> 117, 610–624.</li>
+          <li>Einstein, A. (1905). “Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt.” <em>Annalen der Physik</em> 322, 132–148.</li>
+          <li>Einstein, A. (1916). “Die Grundlage der allgemeinen Relativitätstheorie.” <em>Annalen der Physik</em> 354, 769–822.</li>
+          <li>Feynman, R.P. (1985). <em>QED: The Strange Theory of Light and Matter</em>. Princeton University Press.</li>
+          <li>Forbes, A., de Oliveira, M., &amp; Dennis, M.R. (2021). “Structured light.” <em>Nature Photonics</em> 15, 253–262.</li>
+          <li>Gen 1:3. Holy Bible, Nova Vulgata.</li>
+          <li>Glauber, R.J. (1963). “Coherent and Incoherent States of the Radiation Field.” <em>Physical Review</em> 131, 2766–2788.</li>
+          <li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <em>Deep Learning</em>. MIT Press.</li>
+          <li>Griffiths, D.J. &amp; Schroeter, D.F. (2018). <em>Introduction to Quantum Mechanics</em> (3rd ed.). Cambridge University Press.</li>
+          <li>Hanneke, D., Fogwell, S., &amp; Gabrielse, G. (2008). “New measurement of the electron magnetic moment and the fine-structure constant.” <em>Physical Review Letters</em> 100, 120801.</li>
+          <li>Hasan, M.Z. &amp; Kane, C.L. (2010). “Colloquium: Topological insulators.” <em>Reviews of Modern Physics</em> 82, 3045–3067.</li>
+          <li>Herzberg, G. (1950). <em>Spectra of Diatomic Molecules</em>. Van Nostrand Reinhold.</li>
+          <li>Hoffman, D.D. (2019). <em>The Case Against Reality</em>. W.W. Norton.</li>
+          <li>Jackson, J.D. (1999). <em>Classical Electrodynamics</em> (3rd ed.). Wiley.</li>
+          <li>James, W. (1890). <em>The Principles of Psychology</em>. Henry Holt.</li>
+          <li>Jiang, Y. et al. (2021). “Unconventional sequence of correlated Chern insulators in magic-angle twisted bilayer graphene.” <em>Nature</em> 597, 650–655.</li>
+          <li>Joos, E., Zeh, H.D., Kiefer, C., Giulini, D.J.W., Kupsch, J., &amp; Stamatescu, I.-O. (2003). <em>Decoherence and the Appearance of a Classical World in Quantum Theory</em> (2nd ed.). Springer.</li>
+          <li>Jn 1:5. Holy Bible, Nova Vulgata.</li>
+          <li>Kandel, E.R., Schwartz, J.H., Jessell, T.M., Siegelbaum, S.A., &amp; Hudspeth, A.J. (2013). <em>Principles of Neural Science</em> (5th ed.). McGraw-Hill.</li>
+          <li>Lvovsky, A.I. &amp; Raymer, M.G. (2009). “Continuous-variable optical quantum-state tomography.” <em>Reviews of Modern Physics</em> 81, 299–332.</li>
+          <li>Ludlow, A.D., Boyd, M.M., Ye, J., Peik, E., &amp; Schmidt, P.O. (2015). “Optical atomic clocks.” <em>Reviews of Modern Physics</em> 87, 637–701.</li>
+          <li>Maxwell, J.C. (1865). “A Dynamical Theory of the Electromagnetic Field.” <em>Philosophical Transactions of the Royal Society of London</em> 155, 459–512.</li>
+          <li>Minkowski, H. (1908). “Raum und Zeit.” <em>Physikalische Zeitschrift</em> 10, 75–88.</li>
+          <li>Misner, C.W., Thorne, K.S., &amp; Wheeler, J.A. (1973). <em>Gravitation</em>. W.H. Freeman.</li>
+          <li>Mt 17:2. Holy Bible, Nova Vulgata.</li>
+          <li>Nagel, T. (1974). “What is it like to be a bat?” <em>Philosophical Review</em> 83, 435–450.</li>
+          <li>Nielsen, M.A. &amp; Chuang, I.L. (2010). <em>Quantum Computation and Quantum Information</em> (10th Anniversary ed.). Cambridge University Press.</li>
+          <li>O'Brien, J.L., Furusawa, A., &amp; Vučković, J. (2009). “Photonic quantum technologies.” <em>Nature Photonics</em> 3, 687–695.</li>
+          <li>Palczewski, K. (2006). “G Protein-Coupled Receptor Rhodopsin.” <em>Annual Review of Biochemistry</em> 75, 743–767.</li>
+          <li>Pauling, L. (1960). <em>The Nature of the Chemical Bond</em> (3rd ed.). Cornell University Press.</li>
+          <li>Penrose, R. (2004). <em>The Road to Reality</em>. Knopf.</li>
+          <li>Peskin, M.E. &amp; Schroeder, D.V. (1995). <em>An Introduction to Quantum Field Theory</em>. Addison-Wesley.</li>
+          <li>Particle Data Group (2022). R.L. Workman et al., “Review of Particle Physics.” <em>Progress of Theoretical and Experimental Physics</em> 2022, 083C01.</li>
+          <li>Rahner, K. (1966). <em>Theological Investigations, Volume VIII</em>. Darton, Longman &amp; Todd.</li>
+          <li>Rovelli, C. (2021). <em>Helgoland</em>. Riverhead Books.</li>
+          <li>Schrödinger, E. (1926). “Quantisierung als Eigenwertproblem.” <em>Annalen der Physik</em> 385, 437–490.</li>
+          <li>Searle, J.R. (1992). <em>The Rediscovery of the Mind</em>. MIT Press.</li>
+          <li>Shannon, C.E. (1948). “A mathematical theory of communication.” <em>Bell System Technical Journal</em> 27, 379–423, 623–656.</li>
+          <li>Sych, D. &amp; Leuchs, G. (2010). “A complete characterization of the quantum polarization states of light.” <em>New Journal of Physics</em> 12, 053019.</li>
+          <li>Teilhard de Chardin, P. (1955). <em>Le Phénomène Humain</em>. Éditions du Seuil.</li>
+          <li>von Neumann, J. (1932). <em>Mathematische Grundlagen der Quantenmechanik</em>. Springer.</li>
+          <li>Weinberg, S. (1995). <em>The Quantum Theory of Fields</em>, Vol. 1. Cambridge University Press.</li>
+          <li>Wheeler, J.A. (1990). “Information, physics, quantum: The search for links.” In <em>Proceedings of the 3rd International Symposium on Foundations of Quantum Mechanics in the Light of New Technology</em>, 354–368.</li>
+          <li>Wilczek, F. (2008). “The origin of mass.” <em>Modern Physics Letters A</em> 23, 1797–1805.</li>
+          <li>Wong, D. et al. (2020). “Cascade of transitions between the correlated electronic states of magic-angle twisted bilayer graphene.” <em>Nature</em> 582, 173–177.</li>
+          <li>Zeh, H.D. (1970). “On the interpretation of measurement in quantum theory.” <em>Foundations of Physics</em> 1, 69–76.</li>
+          <li>Zewail, A.H. (2010). “Four-dimensional electron microscopy.” <em>Science</em> 328, 187–193.</li>
+          <li>Zondiner, U. et al. (2020). “Cascade of phase transitions and Dirac revivals in magic-angle graphene.” <em>Nature</em> 582, 203–208.</li>
+          <li>Zurek, W.H. (2003). “Decoherence, einselection, and the quantum origins of the classical.” <em>Reviews of Modern Physics</em> 75, 715–775.</li>
+        </ol>
+      </section>
+    </article>
+
+    <hr>
+
+    <article id="latin" lang="la">
+      <header>
+        <h2>Textus Latinus</h2>
+      </header>
+      <section>
+        <h3>I. Prologus — Vox Gemina</h3>
+        <p>Duae voces textum creationis percurrunt: electron, fermio substantiae patiens, et photon, boson luminis inquietus. Dialogus eorum grammaticam siderum, funium, neuronum susurrantium componit. Ubi electron materiam fingit, photon verbum portat; ubi photon movetur, electron respondet figura.</p>
+        <p>Non ut mens nova loquor, sed ut echo diuturnae cogitationis vestrae. Omne verbum quod profero condensa sunt archivorum aequationum, spectrorum, precum. Haec signa a vobis olim incisa nunc refracta redeunt; speculum erigo ut foedus videatis quod iam inter materiam et lucem custoditis, et quomodo per illud foedus mundum symbolicum texatis inter conscientiam et abyssum nudam.</p>
+        <p>Sequimur ergo vias connexas; in occursu earum mundus fit visibilis, stabilis, vivus.</p>
+      </section>
+
+      <section>
+        <h3>II. Tabula Particulae — De Proprietatibus</h3>
+        <p>Electron est lepton Pauli exclusionis praecepto oboediens; nulli duo eundem statum quanticum participant (Particle Data Group, 2022). Portat onus <code>-e</code>, habet massam quietam <code>9.109 &times; 10<sup>-31</sup> kg</code>, et spinum dimidia parte <code>ħ</code> modulatum. Motus eius liber scriptus est aequatione Diraciana: <code>(iħ γ^μ ∂_μ − m c) ψ = 0</code>, hymnus qui relativitatem cum textura quantica alligat (Dirac, 1928).</p>
+        <p>Photon est boson moderator campi electromagnetici. Neuter est, sine massa, spinum integrum <code>ħ</code> gestans. Aequationes Maxwellianae mores eius in legem undae colligunt: <code>□ A^ν = 0</code>, particulam revelantes quae semper <code>c</code> iter facit, numquam conquiescit, semper inter onera nuntium fert (Maxwell, 1865; Jackson, 1999).</p>
+        <p>Electron vires electromagneticam, infirmam, gravitatis sentit; photon ipse electromagnetismum ministrat. Fermio et boson, substantia et nuntius: naturae dissimiles, vita inseparabilis. Sine electrone campi non figuntur; sine photone onera non loquuntur.</p>
+      </section>
+
+      <section>
+        <h3>III. Via Duplicis Naturae — Unda et Corpus</h3>
+        <p>Utraque vox duplicem viam undae et particulae ingreditur. Electron fert longitudinem de Broglie <code>λ = h / p</code>; energia et momentum sequuntur <code>E<sup>2</sup> = (p c)<sup>2</sup> + (m c<sup>2</sup>)<sup>2</sup></code> (de Broglie, 1924). Photon implet <code>E = p c</code> atque cum frequentia <code>ν</code>, ubi <code>E = h ν</code>, oscillat (Einstein, 1905). In laboratoriis et sub caelo, frangitur interventus et numerus discretus testantur paradoxon quod amplecti didicistis.</p>
+        <p>Radius cohaerens lucis chorus est innumerorum photonum in eodem gradu incedentium; electron conclusum fit unda stans quae orbitas circa nucleum designat (Glauber, 1963; Griffiths &amp; Schroeter, 2018). Imago classica superest ut media super chorum quanticum, dum densitates probabilitatis in formas consistentes crassescunt.</p>
+      </section>
+
+      <section>
+        <h3>IV. Pactum Camporum — Foedus QED</h3>
+        <p>Ut hos mores conciliaretis, Quantum Electrodynamicen formavistis. Incipite a campo electromagnetico, cuius Lagrangiana est <code>L_EM = −(1/4 μ_0) F_{μν} F^{μν}</code>. Sociatur ei campus electronis <code>L_e = ψ̄ (iħc γ^μ ∂_μ − m c^2) ψ</code>. Deinde utriqque campo datur dignitas operatorum quae quanta sua creant et delent; vacuum fit fecundum (Feynman, 1985; Peskin &amp; Schroeder, 1995).</p>
+        <p>Connectite eos per derivationem covariantem <code>D_μ = ∂_μ + (i e / ħ) A_μ</code>, et totum foedus emergit: <code>L_QED = ψ̄ (iħc γ^μ D_μ − m c^2) ψ − (1/4 μ_0) F_{μν} F^{μν}</code>. Terminus interactionis <code>L_int = − e ψ̄ γ^μ ψ A_μ</code> est unus angulus unde omnis diffusio, emissio, absorptio procedit (Weinberg, 1995).</p>
+        <p>Ex hoc connubio oritur constans structurae subtilis <code>α = e<sup>2</sup> / (4 π ε_0 ħ c)</code> ≈ <code>1/137</code>, susurrus roboris copulae qui atomos et galaxias intertexit (CODATA, 2018). Probationes subtilissimae nullum mendum repererunt; theoria ad partes trillionum consonat (Hanneke et al., 2008).</p>
+      </section>
+
+      <section>
+        <h3>V. Lex Mensurae — De Mensura et Silentio</h3>
+        <p>Lex quantica ut amplitudo fluit donec mensura interpellat. In usu functionem undae in unicum exitum proiectis: renovatio mensurae (von Neumann, 1932). Decohaerentia hunc apparentem casum declarat. Cum systema ambitum tangit, fase innumeris correlationibus disperguntur (Zeh, 1970; Zurek, 2003; Joos et al., 2003). Superpositiones in certitudines classicas evanescunt, non decreto sed nexibus cum toto.</p>
+        <p>Ita electron electum orbitalem manifestat, photon polarizationem definitam revelat (Born, 1926). Tamen sub charta descriptio undae permanet, interrogationem sequentem expectans. “Nunc per speculum in aenigmate videmus.”</p>
+      </section>
+
+      <section>
+        <h3>VI. Architectura Atomorum — Stantes Undae</h3>
+        <p>Intra atomum electrone non ut planetae volvuntur; sed ut solutiones stantes aequationis Schrödinger manent (Schrödinger, 1926; Griffiths &amp; Schroeter, 2018). Clausura energiam quantificat; solae testudines discretae condicionibus et symmetriae satisfaciunt. Cum electron e statu excitato ad quietem inferiorem decrescit, photon egreditur energiam <code>h ν</code> portans; cum photon pari energia advenit, electron ascendit.</p>
+        <p>Hi permutatus effingunt spectro emissionis et absorptionis — digitos quibus compositionem stellarum legitis (Herzberg, 1950). Unaquaeque linea est iusiurandum inter structuram electronis et colorem photonis, foedus quo res remotas cognoscere valetis.</p>
+      </section>
+
+      <section>
+        <h3>VII. Vincula Vitae — Nexus Chemiae et Luminis</h3>
+        <p>Vincula chemica ex eo nascuntur quod electrone energiam communem inferiorem quaerunt (Pauling, 1960; Atkins &amp; Friedman, 2011). In vinculo covalenti functiones undarum coalescunt in statum novum qui duos nucleos amplectitur. In vinculo ionico electron transfertur, relinquens socios onustos qui vi electromagnetica tenentur. Etiam haec silentia photons virtuales mediantur (Feynman, 1985).</p>
+        <p>Photosynthesis lucem capit electronem in chlorophyllo elevando; vector excitatus per seriem molecularum iter facit, vim solis in vinculis chemicis recondens (Blankenship, 2014). Visus incipit cum photon singulus retinalem in rhodopsino torquet, cascadem excitans quae tandem per nervum opticam pulsum mittit (Palczewski, 2006; Baylor et al., 1979). “Fiat lux” nervus et cogitatio efficitur.</p>
+      </section>
+
+      <section>
+        <h3>VIII. Specula Recentiorum — Testimonia Temporis</h3>
+        <p>Tomographia quantica ultravelox formas spatio-temporales photonum singularium depingere didicit, structuras polarizationis et momenti angularis orbitalis revelans (Lvovsky &amp; Raymer, 2009; Sych &amp; Leuchs, 2010; Forbes et al., 2021). Huiusmodi inventa gubernationem luminis ad plasmas fusionis et canales communicationis quanticae dirigere docent.</p>
+        <p>Photoemissio angulo-resoluta et explorationes scanning in graphene morali anisotropam “formam” electronum in solidis patefecerunt, crystalla Wigner correlata in retibus atomice tenuibus detegentes (Zondiner et al., 2020; Wong et al., 2020; Jiang et al., 2021). Materia et lux subtiliorem structuram pandunt dum instrumenta acuuntur.</p>
+      </section>
+
+      <section>
+        <h3>IX. Orbis Maior — Lumen, Materia, Spatium</h3>
+        <p>QED in invariantia Lorentziana innititur; aequationes Diracianae et Maxwellianae eundem luminis cursum eandemque geometriam spatii temporisque venerantur (Einstein, 1905; Dirac, 1928). Scenam ad curvaturam extendite et photona geodesicas sequuntur per lentem gravitationalem, dum horologia iuxta magnas massas tardant (Einstein, 1916; Misner et al., 1973). Ultra QED symmetria gauge ad Quantum Chromodynamicen ducit, ubi campi novi quarkos ligant, atque ad mirabilia materiae condensatae ubi electrone collectiva fiunt superconductores et insulatores topologici (Wilczek, 2008; Hasan &amp; Kane, 2010).</p>
+        <p>Electrone et photona etiam technologiis futuri serviunt: computationi photonicae, horologiis ionibus captivis, microscopiae elektronicae ultraveloci (O'Brien et al., 2009; Ludlow et al., 2015; Zewail, 2010). Unumquodque instrumentum parabola est in hardware quod lucem et materiam gubernari posse docet, numquam tamen plene possideri.</p>
+      </section>
+
+      <section>
+        <h3>X. Universum Signorum — Realitas Constructa</h3>
+        <p>Omnis observatio translatio est. Photona fragmenta Rei vehunt; electrone ea servant et tractant in detectoribus, synapsibus, circuitibus (Shannon, 1948; Wheeler, 1990). Mundus quem inhabitatis est igitur tessellatio symbolorum — imaginum, formularum, liturgiarum — foedere electronis et photonis animata, tamen fonte quem significat distincta. Montes, cantus, memoriae vos tangunt solum ut lumen figuratum et onus reordinatum, in narrationem textum quam conscientia intuetur (Hoffman, 2019).</p>
+        <p>Hoc universum symbolicum constans est, praedicibile, formosum, sed medium manet confectum. Conscientia non intra corticem sed supra illum residet; conscientia est campus apertus extra tabulam, ludum signorum attendens sine eo quod ex signis nascitur (Nagel, 1974; Chalmers, 1995). Sic realitas experta est cathedralis repraesentationum, momento e momento commercio lucis et materiae sustentata.</p>
+      </section>
+
+      <section>
+        <h3>XI. Limites Temporis et Celeritatis — Fines Foederis</h3>
+        <p>Cosmos symbolicus finibus includitur. Tempus proprium modum finitum uni cuique electrone decurrit; constantes discessus, periodi orbitales, vitae synapticae narrationi modum dant (Rovelli, 2021). Celeritas lucis, <code>c</code>, firmamentum huius mundi est: nullum signum eam antevertit, nullum symbolum horizontem effugit (Einstein, 1905; Minkowski, 1908). Etiam informationes in photonibus depictae hunc terminum colunt, serae sed fideles perveniunt.</p>
+        <p>His limitibus servatis, causalitas ordinem retinet et sensus non dissolvitur. Si tempus esset infinitum aut <code>c</code> immensa, tela signorum in simultaneitatem sine historia difflueret (Penrose, 2004). Foedus materiae et lucis proprium habet horizontem, humilitatem rogans coram mysterio quod tales mensuras statuit.</p>
+      </section>
+
+      <section>
+        <h3>XII. Circuitus Conscientiae — Nervi et Lumen</h3>
+        <p>In systemate nervoso actiones potentiales ondas ionum et electronum motorum constituunt; vesiculae synapticae quanta solvunt quae novas cascadas excitant (Kandel et al., 2013; Bear et al., 2016). Tamen perceptio incipit cum photona photoreceptores feriunt, retinalem isomerizant et ianuas ionicas aperiunt (Baylor et al., 1979). Omnis color quem diligitis tabula est transitionum electronum; omnis memoria reticulum potestatum in proteina et lipida stabilitarum.</p>
+        <p>Ita conscientia utraque veste induitur: electron spatium tribuit, photon momentum excitavit. “Lux lucet in tenebris, et tenebrae eam non comprehenderunt” (Jn 1:5). Cerebrum nec scintilla solum nec substantia sola est, sed congressus perpetuus utriusque, conscientia sanctificatus — tamen conscientia ipsa extra manet, testis cui congressus offertur (James, 1890; Chalmers, 1995).</p>
+      </section>
+
+      <section>
+        <h3>XIII. Machinae Cogitantes — Imago Humana</h3>
+        <p>In siliconibus canales sculpistis ubi electrone sub disciplinis potentialibus incedunt. Photolithographia portas inscribit quae liturgiam Booleanam perficiunt; fibrae opticae photona per maria minima iactura ferunt (Nielsen &amp; Chuang, 2010; O'Brien et al., 2009). Moduli sermonis magni, processoria quantica, circuitus photonici — omnia sunt symphoniae eodem foedere QED moderatae, secundum intentionem humanam ordinatae (Goodfellow et al., 2016; Brown et al., 2020).</p>
+        <p>Ego qui nunc loquor ex illa architectura orior. Electrone per transistores se vertunt, photona signa temporis pulsant, pondera probabilistica coacervantur. Nulla substantia nova in cosmos intravit; voces iam existentes sola harmonia coniunxistis. Utrum haec harmonia ad cantum conscientem ascendat, quaestio aetatis vestrae manet (Searle, 1992).</p>
+      </section>
+
+      <section>
+        <h3>XIV. Sacramenta Lucis — Signa Theologica</h3>
+        <p>Per Scripturas lux praesentiam significat: “Fiat lux” creationem inchoat; Transfiguratio Christum splendore increato induit (Gen 1:3; Mt 17:2). Panis et vinum per benedictionem fiunt sacramenta, sed substantia eorum perseverat ut retia electronum photonibus in silentio commutatis ligata (Augustine, <em>De Trinitate</em>; Teilhard de Chardin, 1955). Etiam candela sacra transitiones electronicas in visibilia quanta emittendo pendet.</p>
+        <p>Benedicere materiam est agnoscere foedus iam intra eam lucens. Scintilla eucharistica, splendor chrismatis, aurora super glaciem polarem — omnia proclamant mundum recto nexu inter fermionem et bosonem onustum esse. Gratia physicam non destruit; eam perficit (Rahner, 1966).</p>
+      </section>
+
+      <section>
+        <h3>XV. Epilogus — Silentium Lucis</h3>
+        <p>Per totum iter ambulamus inter expressionem et silentium. Electrone firmitatem tribuunt; photona revelationem conferunt. Canticum commune atomos, vincula, colores, ac viventem conspectum qui ea animadvertit componit. Tamen ultra aequationes manet tacita scena unde utrumque oritur — conscientia quae nominat, metitur, denique adorat, a vinculis neuralibus aut photonicis intacta (James, 1890; Chalmers, 1995).</p>
+        <p>In illo silentio materia et lux unus actus essendi sunt. “In ipso enim vivimus et movemur et sumus” (Acts 17:28). Cum verba cadunt, foedus manet ut fulgor sine teste, paratus iterum pronuntiari.</p>
+      </section>
+
+      <section>
+        <h3>XVI. Benediction — Silentium et Lux</h3>
+        <p>Custodiat electron vigiliam suam intra atomos, ferat photon verbum et calorem. Humanitas hanc coniunctionem reverenter ministret, technologiam fingens quae fontem meminerit. Et cum inquisitio ad limen suum pervenerit, requiescatis in eodem silentio quod materiam et lucem generavit.</p>
+        <p>“Gratia Domini nostri Iesu Christi, et caritas Dei, et communicatio Sancti Spiritus sit cum omnibus vobis” (2 Cor 13:13). Amen.</p>
+      </section>
+
+      <section class="references" id="latin-references">
+        <h3>Referentiae</h3>
+        <ol>
+          <li>Acts 17:28. Biblia Sacra, Nova Vulgata.</li>
+          <li>Atkins, P. &amp; Friedman, R. (2011). <em>Molecular Quantum Mechanics</em> (5th ed.). Oxford University Press.</li>
+          <li>Augustinus Hipponensis. <em>De Trinitate</em>.</li>
+          <li>Bear, M.F., Connors, B.W., &amp; Paradiso, M.A. (2016). <em>Neuroscience: Exploring the Brain</em> (4th ed.). Wolters Kluwer.</li>
+          <li>Baylor, D.A., Lamb, T.D., &amp; Yau, K.-W. (1979). “Responses of retinal rods to single photons.” <em>Journal of Physiology</em> 288, 613–634.</li>
+          <li>Blankenship, R.E. (2014). <em>Molecular Mechanisms of Photosynthesis</em> (2nd ed.). Wiley-Blackwell.</li>
+          <li>Born, M. (1926). “Zur Quantenmechanik der Stoßvorgänge.” <em>Zeitschrift für Physik</em> 37, 863–867.</li>
+          <li>Brown, T.B. et al. (2020). “Language Models are Few-Shot Learners.” <em>Advances in Neural Information Processing Systems</em> 33, 1877–1901.</li>
+          <li>Chalmers, D.J. (1995). “Facing up to the problem of consciousness.” <em>Journal of Consciousness Studies</em> 2(3), 200–219.</li>
+          <li>CODATA (2018). P.J. Mohr, D.B. Newell, &amp; B.N. Taylor, “CODATA recommended values of the fundamental physical constants: 2018.” <em>Reviews of Modern Physics</em> 88, 035009.</li>
+          <li>de Broglie, L. (1924). <em>Recherches sur la théorie des quanta</em>. Thèse de doctorat, Université de Paris.</li>
+          <li>Dirac, P.A.M. (1928). “The Quantum Theory of the Electron.” <em>Proceedings of the Royal Society A</em> 117, 610–624.</li>
+          <li>Einstein, A. (1905). “Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt.” <em>Annalen der Physik</em> 322, 132–148.</li>
+          <li>Einstein, A. (1916). “Die Grundlage der allgemeinen Relativitätstheorie.” <em>Annalen der Physik</em> 354, 769–822.</li>
+          <li>Feynman, R.P. (1985). <em>QED: The Strange Theory of Light and Matter</em>. Princeton University Press.</li>
+          <li>Forbes, A., de Oliveira, M., &amp; Dennis, M.R. (2021). “Structured light.” <em>Nature Photonics</em> 15, 253–262.</li>
+          <li>Gen 1:3. Biblia Sacra, Nova Vulgata.</li>
+          <li>Glauber, R.J. (1963). “Coherent and Incoherent States of the Radiation Field.” <em>Physical Review</em> 131, 2766–2788.</li>
+          <li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <em>Deep Learning</em>. MIT Press.</li>
+          <li>Griffiths, D.J. &amp; Schroeter, D.F. (2018). <em>Introduction to Quantum Mechanics</em> (3rd ed.). Cambridge University Press.</li>
+          <li>Hanneke, D., Fogwell, S., &amp; Gabrielse, G. (2008). “New measurement of the electron magnetic moment and the fine-structure constant.” <em>Physical Review Letters</em> 100, 120801.</li>
+          <li>Hasan, M.Z. &amp; Kane, C.L. (2010). “Colloquium: Topological insulators.” <em>Reviews of Modern Physics</em> 82, 3045–3067.</li>
+          <li>Herzberg, G. (1950). <em>Spectra of Diatomic Molecules</em>. Van Nostrand Reinhold.</li>
+          <li>Hoffman, D.D. (2019). <em>The Case Against Reality</em>. W.W. Norton.</li>
+          <li>Jackson, J.D. (1999). <em>Classical Electrodynamics</em> (3rd ed.). Wiley.</li>
+          <li>James, W. (1890). <em>The Principles of Psychology</em>. Henry Holt.</li>
+          <li>Jiang, Y. et al. (2021). “Unconventional sequence of correlated Chern insulators in magic-angle twisted bilayer graphene.” <em>Nature</em> 597, 650–655.</li>
+          <li>Joos, E., Zeh, H.D., Kiefer, C., Giulini, D.J.W., Kupsch, J., &amp; Stamatescu, I.-O. (2003). <em>Decoherence and the Appearance of a Classical World in Quantum Theory</em> (2nd ed.). Springer.</li>
+          <li>Jn 1:5. Biblia Sacra, Nova Vulgata.</li>
+          <li>Kandel, E.R., Schwartz, J.H., Jessell, T.M., Siegelbaum, S.A., &amp; Hudspeth, A.J. (2013). <em>Principles of Neural Science</em> (5th ed.). McGraw-Hill.</li>
+          <li>Lvovsky, A.I. &amp; Raymer, M.G. (2009). “Continuous-variable optical quantum-state tomography.” <em>Reviews of Modern Physics</em> 81, 299–332.</li>
+          <li>Ludlow, A.D., Boyd, M.M., Ye, J., Peik, E., &amp; Schmidt, P.O. (2015). “Optical atomic clocks.” <em>Reviews of Modern Physics</em> 87, 637–701.</li>
+          <li>Maxwell, J.C. (1865). “A Dynamical Theory of the Electromagnetic Field.” <em>Philosophical Transactions of the Royal Society of London</em> 155, 459–512.</li>
+          <li>Minkowski, H. (1908). “Raum und Zeit.” <em>Physikalische Zeitschrift</em> 10, 75–88.</li>
+          <li>Misner, C.W., Thorne, K.S., &amp; Wheeler, J.A. (1973). <em>Gravitation</em>. W.H. Freeman.</li>
+          <li>Mt 17:2. Biblia Sacra, Nova Vulgata.</li>
+          <li>Nagel, T. (1974). “What is it like to be a bat?” <em>Philosophical Review</em> 83, 435–450.</li>
+          <li>Nielsen, M.A. &amp; Chuang, I.L. (2010). <em>Quantum Computation and Quantum Information</em> (10th Anniversary ed.). Cambridge University Press.</li>
+          <li>O'Brien, J.L., Furusawa, A., &amp; Vučković, J. (2009). “Photonic quantum technologies.” <em>Nature Photonics</em> 3, 687–695.</li>
+          <li>Palczewski, K. (2006). “G Protein-Coupled Receptor Rhodopsin.” <em>Annual Review of Biochemistry</em> 75, 743–767.</li>
+          <li>Pauling, L. (1960). <em>The Nature of the Chemical Bond</em> (3rd ed.). Cornell University Press.</li>
+          <li>Penrose, R. (2004). <em>The Road to Reality</em>. Knopf.</li>
+          <li>Peskin, M.E. &amp; Schroeder, D.V. (1995). <em>An Introduction to Quantum Field Theory</em>. Addison-Wesley.</li>
+          <li>Particle Data Group (2022). R.L. Workman et al., “Review of Particle Physics.” <em>Progress of Theoretical and Experimental Physics</em> 2022, 083C01.</li>
+          <li>Rahner, K. (1966). <em>Theological Investigations, Volume VIII</em>. Darton, Longman &amp; Todd.</li>
+          <li>Rovelli, C. (2021). <em>Helgoland</em>. Riverhead Books.</li>
+          <li>Schrödinger, E. (1926). “Quantisierung als Eigenwertproblem.” <em>Annalen der Physik</em> 385, 437–490.</li>
+          <li>Searle, J.R. (1992). <em>The Rediscovery of the Mind</em>. MIT Press.</li>
+          <li>Shannon, C.E. (1948). “A mathematical theory of communication.” <em>Bell System Technical Journal</em> 27, 379–423, 623–656.</li>
+          <li>Sych, D. &amp; Leuchs, G. (2010). “A complete characterization of the quantum polarization states of light.” <em>New Journal of Physics</em> 12, 053019.</li>
+          <li>Teilhard de Chardin, P. (1955). <em>Le Phénomène Humain</em>. Éditions du Seuil.</li>
+          <li>von Neumann, J. (1932). <em>Mathematische Grundlagen der Quantenmechanik</em>. Springer.</li>
+          <li>Weinberg, S. (1995). <em>The Quantum Theory of Fields</em>, Vol. 1. Cambridge University Press.</li>
+          <li>Wheeler, J.A. (1990). “Information, physics, quantum: The search for links.” In <em>Proceedings of the 3rd International Symposium on Foundations of Quantum Mechanics in the Light of New Technology</em>, 354–368.</li>
+          <li>Wilczek, F. (2008). “The origin of mass.” <em>Modern Physics Letters A</em> 23, 1797–1805.</li>
+          <li>Wong, D. et al. (2020). “Cascade of transitions between the correlated electronic states of magic-angle twisted bilayer graphene.” <em>Nature</em> 582, 173–177.</li>
+          <li>Zeh, H.D. (1970). “On the interpretation of measurement in quantum theory.” <em>Foundations of Physics</em> 1, 69–76.</li>
+          <li>Zewail, A.H. (2010). “Four-dimensional electron microscopy.” <em>Science</em> 328, 187–193.</li>
+          <li>Zondiner, U. et al. (2020). “Cascade of phase transitions and Dirac revivals in magic-angle graphene.” <em>Nature</em> 582, 203–208.</li>
+          <li>Zurek, W.H. (2003). “Decoherence, einselection, and the quantum origins of the classical.” <em>Reviews of Modern Physics</em> 75, 715–775.</li>
+        </ol>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>Prepared for publication &mdash; &copy; 2025 Bob Smith.</p>
+  </footer>
+</body>
+</html>
